@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
 	<title>Moostache</title>
 	<link rel="icon" type="image/png" href="assets/img/logo.png">
 	<link rel="stylesheet" type="text/css" href="assets/css/bulma.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<meta property="og:title" content="Moostache"/>
 	<meta property="og:type" content="website"/>
@@ -13,22 +12,42 @@
 	<meta property="og:description" content="Site personnel d'un développeur amateur."/>
 	<meta name="theme-color" content="#363636">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<style>
+		#twitter {
+			color: #363636;
+		}
+
+		#twitter:hover {
+			color: #55acee;
+		}
+
+		#youtube {
+			color: #363636;
+		}
+
+		#youtube:hover {
+			color: #FF0000;
+		}
+	</style>
 </head>
 <body>
 
 	<nav class="navbar is-fixed-top is-dark">
 		<div class="navbar-brand">
 			<a class="navbar-item">
-				<img src="assets/img/logo.png">
+				<img src="assets/img/logo.png" alt="Logo">
 			</a>
 		</div>
-		<div class="navbar-menu">
+		<div class="navbar-menu is-active">
 			<div class="navbar-start">
 				<a class="navbar-item">
 					Accueil
 				</a>
 				<a class="navbar-item" href="projets.html">
 					Projets
+				</a>
+				<a class="navbar-item" href="amis.html">
+					Amis
 				</a>
 			</div>
 		</div>
@@ -52,7 +71,7 @@
 			<div class="container">
 				<div class="content">
 					<h3 class="title is-3">Présentation</h3>
-					<p>Bonjour ! Je suis Møostache, un développeur (très très) amateur en JS et HTML/CSS. Pour le moment, il n'y a pas grand chose à voir ici, si ce n'est mes projets. <br /> Repassez bientôt, vous verrez mon évolution au fil du temps !</p> Tiens, et si je vous présentais mon matériel ?
+					<p>Bonjour ! Je suis Moostache, un développeur (très très) amateur en JS et HTML/CSS. Pour le moment, il n'y a pas grand chose à voir ici, si ce n'est mes projets. <br /> Repassez bientôt, vous verrez mon évolution au fil du temps !</p> Tiens, et si je vous présentais mon matériel ?
 					<h3 class="title is-3">Matériel</h3>
 					<ul>
 						<li>
@@ -63,7 +82,7 @@
 								<li>8Go de RAM DDR4</li>
 								<li>Disque Dur 1To HDD</li>
 								<li>Écran Full HD 17"</li>
-								<li>Windows 10 Professionnel 64 Bits (je vais bientôt trouver une distribution Linux car j'en ai marre)</li>
+								<li>Windows 10 Professionnel 64 Bits et Ubuntu 18.04 64 Bits (Multiboot)</li>
 							</ul>
 						</li>
 						<li>
@@ -110,7 +129,26 @@
 					Partagez mon site sur Twitter !
 				</h2>
 				<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Venez faire un tour sur le site de @elmoostache !" data-url="https://elmoostache.github.io" data-lang="fr" data-show-count="false">Tweeter !</a>
-				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				<script async src="https://platform.twitter.com/widgets.js"></script>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero is-info is-bold">
+		<div class="hero-body">
+			<div class="container">
+				<h1 class="title is-1">
+					Voyage temporel prêt.
+				</h1>
+				<h2 class="subtitle">
+					Essayez de ne pas briser le continuum espace-temps.
+				</h2>
+				<a class="button is-primary is-bold" href="old/index.html">
+					<span class="icon is-small" style="margin-right: 3px;">
+						<i class="fas fa-space-shuttle"></i>
+					</span>
+					Retourner dans le passé
+				</a>
 			</div>
 		</div>
 	</section>
@@ -126,24 +164,6 @@
 			</a>
 		</div>
 	</footer>
-
-	<style type="text/css">
-		#twitter {
-			color: #363636;
-		}
-
-		#twitter:hover {
-			color: #55acee;
-		}
-
-		#youtube {
-			color: #363636;
-		}
-
-		#youtube:hover {
-			color: #FF0000;
-		}
-	</style>
 
 </body>
 </html>
